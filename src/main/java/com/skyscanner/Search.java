@@ -1,8 +1,10 @@
+package com.skyscanner;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Search {
     @JsonProperty
-    public String city;
+    private String city;
 
     public Search(){
     }
